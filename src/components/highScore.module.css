@@ -1,0 +1,31 @@
+
+.listItemHeader {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 350px;
+    border: 1px solid black;
+}
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 350px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.position { 
+    width: 50px;
+    border-right: 1px solid black;
+}
+
+.nickName {
+    width: 250px;
+    border-right: 1px solid black;
+}
+
+.result {
+    width: 50px;
+}

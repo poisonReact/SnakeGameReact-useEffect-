@@ -1,0 +1,145 @@
+.gameArea {
+    position: relative;
+    line-height: 0;
+    margin: 50px auto;
+    
+    border: 1px solid green;
+}
+
+
+.collapseAlertWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 400px;
+    height: 70px;
+    background-color: coral;
+    border: 2px solid red;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.collapseAlertWrapper button {
+    width: 50px;
+    margin: 0 auto;
+    
+}
+.gameSettings {
+    overflow-y: hidden;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    display: flex;
+    width: 700px;
+    height: 60px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gameSettingsNone {
+    overflow-y: hidden;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+    display: flex;
+    width: 700px;
+    height: 0px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.sidebarLogo {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: grey;
+    cursor: pointer;
+    user-select: none;
+}
+
+.sidebarLogo:hover {
+    background-color: rgb(75, 72, 72);
+
+}
+
+.sidebarLogoX {
+    font-size: 150%;
+}
+
+.sidebarLogoHamburger {
+    width: 30px;
+}
+
+.gameSettingsHeader {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.snakeDot {
+    position: absolute;
+    background-color: green;
+    border-radius: 40%;
+    z-index: 2;
+}
+
+.snakeDotHead {
+    position: absolute;
+    background-color: black;
+    border-radius: 40%;
+    z-index: 2;
+}
+
+.snakeDotHeadOnTop {
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeDotHeadOnDown {
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeDotHeadOnLeft {
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeDotHeadOnRight {
+    position: absolute;
+    z-index: 2;
+}
+
+.snakeFood {
+    position: absolute;
+    background-color: red;
+    border-radius: 40%;
+    z-index: 1;
+}
+
+.dot {
+    display: inline-flex;       
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pixel {
+    background-color: red;
+}
